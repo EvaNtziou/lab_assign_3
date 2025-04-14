@@ -6,7 +6,7 @@ body {
 .egg {
     display: inline-block;
     width: 100px;
-    height: 130px;
+    height: 120px;
     background: linear-gradient(45deg, #ff9ecd, #ffcce6);
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     margin: 10px;
