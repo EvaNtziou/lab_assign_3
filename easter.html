@@ -12,9 +12,9 @@
     <div class="egg" onclick="alert('You found a chocolate egg! 🍫')"></div>
     <div class="egg" onclick="document.getElementById('secretBunny').style.display='block'"></div>
     <div class="egg" onclick="this.style.background='rainbow'"></div>
-    <div class="egg" onclick="this.style.background='yellow'; alert('Golden egg! 🥇')"></div>
-    <div class="egg" onclick="this.style.background='green'; alert('🍀 You found the lucky egg!')"></div>
-    <div class="egg" onclick="this.style.background='pink'; alert('🎀 Pink egg!')"></div>
+    <div class="egg" onclick="this.style.background='#006400'; alert('Golden egg! 🥇')"></div>
+    <div class="egg" onclick="this.style.background='#006400'; alert('🍀 You found the lucky egg!')"></div>
+    <div class="egg" onclick="this.style.background='#006400'; alert('🎀 Pink egg!')"></div>
     <div class="egg rotten" onclick="this.style.background='brown'; this.style.opacity=0.6; alert('💀 Rotten egg...')"></div>
 
 >>>>>>> moreEggs
@@ -26,8 +26,7 @@
 
     <script>
         // Easter egg: Konami code reveals rainbow background
-        let input = '';
-        const megaJumpCode = 'LFGMHAL';
+        let keys = [];
 
         document.addEventListener('keydown', (e) => {
             keys.push(e.key);
