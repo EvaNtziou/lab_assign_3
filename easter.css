@@ -12,6 +12,7 @@ body {
     margin: 10px;
     cursor: pointer;
     transition: transform 0.3s;
+    background-color: #8B0000;
 }
 .egg:hover {
     transform: scale(1.1);
