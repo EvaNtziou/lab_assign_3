@@ -11,7 +11,13 @@
     
     <div class="egg" onclick="alert('You found a chocolate egg! 🍫')"></div>
     <div class="egg" onclick="document.getElementById('secretBunny').style.display='block'"></div>
-    <div class="egg" onclick="this.style.background='linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)'"></div>
+    <div class="egg" onclick="this.style.background='rainbow'"></div>
+    <div class="egg" onclick="this.style.background='yellow'; alert('Golden egg! 🥇')"></div>
+    <div class="egg" onclick="this.style.background='green'; alert('🍀 You found the lucky egg!')"></div>
+    <div class="egg" onclick="this.style.background='pink'; alert('🎀 Pink egg!')"></div>
+    <div class="egg rotten" onclick="this.style.background='brown'; this.style.opacity=0.6; alert('💀 Rotten egg...')"></div>
+
+>>>>>>> moreEggs
 
 
     <p class="hidden-basket">🧺 Secret Easter Basket Found! 🧺</p>
@@ -24,10 +30,9 @@
         const megaJumpCode = 'LFGMHAL';
 
         document.addEventListener('keydown', (e) => {
-            input += e.key.toUpperCase();
-            if (input.includes(megaJumpCode)) {
-                alert("Mega Jump activated!");
-                document.body.style.background = 'linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)';
+            keys.push(e.key);
+            if (keys.join(',').includes('ArrowUp,ArrowUp,ArrowDown,ArrowDown')) {
+                document.body.style.background = 'linear-gradient(to right, #1E90FF, #FFA500)';
             }
         });
     </script>
