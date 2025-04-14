@@ -20,11 +20,14 @@
 
     <script>
         // Easter egg: Konami code reveals rainbow background
-        let keys = [];
+        let input = '';
+        const megaJumpCode = 'LFGMHAL';
+
         document.addEventListener('keydown', (e) => {
-            keys.push(e.key);
-            if (keys.join(',').includes('ArrowUp,ArrowUp,ArrowDown,ArrowDown')) {
-                document.body.style.background = 'linear-gradient(45deg, red,orange,yellow,green,blue,indigo,violet)';
+            input += e.key.toUpperCase();
+            if (input.includes(megaJumpCode)) {
+                alert("Mega Jump activated!");
+                document.body.style.background = 'linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)';
             }
         });
     </script>
