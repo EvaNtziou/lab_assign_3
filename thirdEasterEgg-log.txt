@@ -1,0 +1,4 @@
+f86ca94 fix mega jump
+69b9b8c fix rainbow theme
+f58cf92 change egg color
+ad05692 Initial commit

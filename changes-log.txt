@@ -1,0 +1,14 @@
+5137caf Change to candle emoji
+1152f58 Shorter eggs
+7ff2cfa Bigger eggs
+6372734 Bluegreen gradient
+7a4fe2a Yellow backround
+7eeae3b Dark green eggs, and fix an error in the backround due to the conflicts
+c8f3467 Resolve Conflicts
+daaa98a fix an egg color
+b0567b9 blue-orange gradient
+6e31676 add different colored eggs
+f86ca94 fix mega jump
+69b9b8c fix rainbow theme
+f58cf92 change egg color
+ad05692 Initial commit
